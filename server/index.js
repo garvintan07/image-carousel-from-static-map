@@ -6,7 +6,7 @@ const morgan = require("morgan");
 const app = express();
 app.use(morgan("dev"));
 app.use(express.json());
-const port = 5000;
+const port = 3004;
 app.use(express.static(path.join(__dirname, "../client/dist/")));
 
 app.get("/images", (req, res) =>

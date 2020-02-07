@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "/Users/sonam/Desktop/image-carousel-from-static-map/client/src/components/App.jsx";
+import App from "./components/App.jsx";
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("carousel"));

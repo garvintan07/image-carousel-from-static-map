@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import images from "/Users/sonam/Desktop/image-carousel-from-static-map/images.js";
-import ListImages from "/Users/sonam/Desktop/image-carousel-from-static-map/client/src/components/ListImages.jsx";
-import Image from "../style/ListImages.jsx";
-import Map from "/Users/sonam/Desktop/image-carousel-from-static-map/client/src/components/Map.jsx";
+import images from "../../../images.js";
+import ListImages from "./ListImages.jsx";
+// import Image from "../style/ListImages.jsx";
+import Map from "./Map.jsx";
 
 const Wrapper = styled.div`
   display: float;
